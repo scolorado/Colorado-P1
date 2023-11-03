@@ -19,8 +19,12 @@
           <form class="d-flex">
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="navbar-nav me-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">About</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#education">Education</a></li>
+                      <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="work.html">Work</a>
@@ -60,7 +64,22 @@
 
         <br>
 
-      <div class="container">
+      <div class="container" id="education">
+        <h1 style="text-align: center;">education</h1>
+        <p style="font-family: 'Nanum Gothic', sans-serif;">My current weighted GPA is 5.2 on a 6.0 scale, and my unweighted is a 3.98 on a 4.0 scale. I am involved in Latin Honor Soceity and National Honor Society. I have always received principals honor roll as long as I have been at FTHS.</p>
+      </div>
+
+<br>
+
+
+      <div class="d-flex justify-content-center">
+        <img src="img/beach.jpg" style="width: 15%; padding: 5px;"> 
+          <img src="img/hike.jpg" style="width: 15%; padding: 5px;">
+      </div>
+
+      <br>
+
+      <div class="container" id="skills">
         <h2 style="font-family: 'Playfair Display', serif; text-align: center;">my skills</h2>
         <br>
         <div class="row">
@@ -77,6 +96,8 @@
           </div>
         </div>
       </div>
+
+      <br>
     
 </body>
 </html>
