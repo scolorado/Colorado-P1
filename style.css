@@ -14,7 +14,12 @@ p{
 .link{
     color: black; 
     text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 .link:hover{
     color:  #a6b4cf;
+}
+#work-card-title{
+    color: black;
+    font-family: 'Playfair Display', serif;
 }
